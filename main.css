@@ -68,7 +68,7 @@ ul li {
     position: relative;
 }
 
-ul li .checked {
+.checked {
     color:#54f854;
     text-decoration: line-through;
     transition: .2s;

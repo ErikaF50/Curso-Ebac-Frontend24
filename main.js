@@ -5,9 +5,8 @@ $(document).ready(function(){
         $('ul').append('<li >' + input + '</li>');
         $(this).val('');
     });
-
-    $('ul').on('click','.checked', function(){
-        $(this).parent('li').toggleClass('checked');
-    });
     
+    $('ul').on('click','li', function(){
+        $(this).toggleClass('checked');
+    });
 });
